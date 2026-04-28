@@ -28,4 +28,4 @@ The goal is to survive, collect as many coins as possible, and correctly answer 
 
 🌟 Vision
 
-Gurugrah Learning Universe aims to make education enjoyable by combining gaming mechanics with learning, helping players grow their knowledge in a fun and interactive way.
+Gurugrah Learning Universe aims to make education enjoyable by combining gaming mechanics with learning, helping players grow their knowledge in a fun and interactive way..
