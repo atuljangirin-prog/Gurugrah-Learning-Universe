@@ -1,0 +1,213 @@
+{
+  "worlds": [
+    {
+      "id": "math",
+      "name": "Math World",
+      "description": "Number gates, pattern bridges, and fast arithmetic checkpoints."
+    },
+    {
+      "id": "science",
+      "name": "Science World",
+      "description": "Explore matter, energy, planets, and living systems."
+    },
+    {
+      "id": "coding",
+      "name": "Coding World",
+      "description": "Debug loops, logic, variables, and web fundamentals."
+    },
+    {
+      "id": "quiz",
+      "name": "Quiz Arena",
+      "description": "A mixed challenge with denser checkpoints and faster hazards."
+    }
+  ],
+  "levels": [
+    {
+      "id": "math-1",
+      "worldId": "math",
+      "name": "Fraction Foothills",
+      "length": 4300,
+      "coinCount": 28,
+      "enemyCount": 5,
+      "enemySpeed": 84,
+      "checkpointCount": 4,
+      "powerups": ["speed", "shield"],
+      "platforms": [
+        [520, 548, 260],
+        [860, 458, 210],
+        [1240, 535, 260],
+        [1640, 444, 230],
+        [2010, 552, 280],
+        [2400, 476, 220],
+        [2830, 546, 270],
+        [3240, 442, 250],
+        [3680, 538, 310]
+      ]
+    },
+    {
+      "id": "math-2",
+      "worldId": "math",
+      "name": "Algebra Arcway",
+      "length": 5100,
+      "coinCount": 34,
+      "enemyCount": 7,
+      "enemySpeed": 98,
+      "checkpointCount": 5,
+      "powerups": ["shield", "speed", "speed"],
+      "platforms": [
+        [510, 530, 220],
+        [850, 432, 190],
+        [1200, 512, 240],
+        [1600, 414, 220],
+        [1960, 555, 260],
+        [2380, 462, 230],
+        [2790, 392, 210],
+        [3190, 534, 260],
+        [3620, 442, 240],
+        [4060, 552, 280],
+        [4550, 430, 260]
+      ]
+    },
+    {
+      "id": "science-1",
+      "worldId": "science",
+      "name": "Atom Orchard",
+      "length": 4400,
+      "coinCount": 30,
+      "enemyCount": 5,
+      "enemySpeed": 88,
+      "checkpointCount": 4,
+      "powerups": ["shield", "speed"],
+      "platforms": [
+        [500, 540, 250],
+        [830, 452, 230],
+        [1190, 524, 240],
+        [1580, 428, 210],
+        [1960, 548, 280],
+        [2360, 466, 230],
+        [2780, 526, 260],
+        [3170, 410, 220],
+        [3610, 536, 300]
+      ]
+    },
+    {
+      "id": "science-2",
+      "worldId": "science",
+      "name": "Orbit Laboratory",
+      "length": 5200,
+      "coinCount": 36,
+      "enemyCount": 8,
+      "enemySpeed": 102,
+      "checkpointCount": 5,
+      "powerups": ["speed", "shield", "shield"],
+      "platforms": [
+        [530, 528, 250],
+        [920, 430, 200],
+        [1320, 520, 250],
+        [1720, 408, 220],
+        [2100, 542, 270],
+        [2520, 452, 230],
+        [2920, 380, 210],
+        [3330, 526, 260],
+        [3740, 430, 240],
+        [4150, 546, 280],
+        [4650, 410, 270]
+      ]
+    },
+    {
+      "id": "coding-1",
+      "worldId": "coding",
+      "name": "Logic Loop City",
+      "length": 4500,
+      "coinCount": 30,
+      "enemyCount": 6,
+      "enemySpeed": 94,
+      "checkpointCount": 4,
+      "powerups": ["speed", "shield"],
+      "platforms": [
+        [520, 536, 260],
+        [900, 438, 210],
+        [1290, 516, 250],
+        [1690, 422, 220],
+        [2050, 548, 280],
+        [2460, 462, 230],
+        [2900, 528, 270],
+        [3320, 426, 230],
+        [3750, 540, 300]
+      ]
+    },
+    {
+      "id": "coding-2",
+      "worldId": "coding",
+      "name": "Function Foundry",
+      "length": 5300,
+      "coinCount": 38,
+      "enemyCount": 8,
+      "enemySpeed": 106,
+      "checkpointCount": 5,
+      "powerups": ["shield", "speed", "shield"],
+      "platforms": [
+        [520, 528, 240],
+        [890, 418, 200],
+        [1250, 520, 240],
+        [1650, 412, 220],
+        [2020, 544, 270],
+        [2440, 448, 230],
+        [2860, 388, 210],
+        [3280, 530, 260],
+        [3690, 434, 240],
+        [4100, 548, 280],
+        [4580, 402, 250],
+        [4950, 532, 260]
+      ]
+    },
+    {
+      "id": "quiz-1",
+      "worldId": "quiz",
+      "name": "Scholar Stadium",
+      "length": 4600,
+      "coinCount": 26,
+      "enemyCount": 7,
+      "enemySpeed": 102,
+      "checkpointCount": 6,
+      "powerups": ["speed", "shield", "speed"],
+      "platforms": [
+        [500, 542, 240],
+        [820, 446, 190],
+        [1160, 522, 220],
+        [1510, 420, 210],
+        [1880, 548, 260],
+        [2290, 456, 220],
+        [2690, 526, 250],
+        [3080, 410, 210],
+        [3480, 536, 270],
+        [3920, 438, 260]
+      ]
+    },
+    {
+      "id": "quiz-2",
+      "worldId": "quiz",
+      "name": "Mastery Marathon",
+      "length": 5600,
+      "coinCount": 42,
+      "enemyCount": 10,
+      "enemySpeed": 116,
+      "checkpointCount": 7,
+      "powerups": ["shield", "speed", "shield", "speed"],
+      "platforms": [
+        [520, 530, 240],
+        [900, 424, 200],
+        [1280, 522, 240],
+        [1660, 410, 220],
+        [2040, 546, 270],
+        [2460, 452, 230],
+        [2880, 386, 210],
+        [3310, 528, 260],
+        [3730, 432, 240],
+        [4140, 548, 280],
+        [4620, 402, 250],
+        [5020, 532, 260]
+      ]
+    }
+  ]
+}
